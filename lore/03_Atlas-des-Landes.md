@@ -18,6 +18,12 @@ Les Landes = vaste région **côtière** sur la paroi interne de la Géode. Tour
 **Une seule carte Dark pour l’instant : Landes + mer du donjon.**  
 Pas le continent élevé. Pas Montnoir. Pas la ville-crabe.
 
+**Taille verrouillée** (voir [09_TAILLE_DE_LA_CARTE.md](../09_TAILLE_DE_LA_CARTE.md)) :
+
+- monde **10 km de large × 20 km de long**
+- plage = bande **en bas** (sud) : **20 km × 3 km**
+- mer au sud de la bande ; landes au nord
+
 ---
 
 ## Lieux à poser (ordre géographique utile)
@@ -65,26 +71,25 @@ Du **donjon en mer** vers l’**intérieur**, puis la **fracture**.
 
 ```
                     NORD (haut d’écran, iy = 0)
-    mer noire ~~~~ DONJON ~~~~ mer
-                    |
-              falaises / GROTTE DRAGON
-                    |
-         village pêcheurs (côte)     forteresse falaise
-                    |
-         ============ LANDES (collines, ronces) ============
+                    intérieur des Landes (~7 km)
          manoir Bouc     Pierre Plantée     tour Horloger
               \              |                /
             POTIERS      tourbières      Arbre du Pendu
                               |
                     Champ de pierre / astrologue
                               |
-         ----------- FRACTURE / GOUFFRE / PONT ÉPINEUSE -----------
+         ----------- FRACTURE / PONT ÉPINEUSE (plus tard, vers le fond) -----------
                               |
-                    continent élevé (plus tard, hors carte)
-                    SUD
+         ============ LANDES (collines, ronces) ============
+         village pêcheurs / falaises / GROTTE DRAGON
+                              |
+         ===== PLAGE  20 km de long × 3 km de large  (bande du bas) =====
+         mer noire ~~~~ DONJON ~~~~ mer
+                    SUD (bas de la carte)
 ```
 
-JY a déjà dit : **haut de l’écran = NORD**. `iy = 0` = bord nord. Ne pas inverser.
+JY, 4 sept 2026 : **haut de l’écran = NORD**. `iy = 0` = bord nord.  
+**Bas = SUD = la plage**, puis la mer. Ne pas inverser. Ne pas mettre la mer en haut.
 
 La **légende peinte** (`exemples/carte-dark-fantasy-legende.jpg`) + **croquis crayon** + **carte peinte entière** = contrat **visuel 3D**. L’Atlas dit **quoi** est où. La peinture dit **comment ça doit y ressembler**.
 

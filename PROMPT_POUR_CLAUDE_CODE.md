@@ -9,6 +9,7 @@ Tu travailles dans **`albouyjy-byte/hotel-brume-ecarlate`**.
 Vision + **canon** : [albouyjy-byte/cahier-monde-dark](https://github.com/albouyjy-byte/cahier-monde-dark)
 
 - `lore/00_LIS_MOI.md` puis **01 Carrefour** (début), **02 Codex** (ciel), **03 Atlas** (carte)
+- `09_TAILLE_DE_LA_CARTE.md` — monde **10 × 20 km**, plage **20 × 3 km** en bas. Pas en passe A.
 - `06_GARDE_FOU.md`, `02_ORDRE_DES_PASSES.md`, `03_CIEL_TROU_NOIR.md`
 - Sol : [cahier-dark-fps](https://github.com/albouyjy-byte/cahier-dark-fps) + `cahier-grok/`
 - Combat (déjà branché, tu ne le refais pas) : [cahier-combat-dark](https://github.com/albouyjy-byte/cahier-combat-dark)

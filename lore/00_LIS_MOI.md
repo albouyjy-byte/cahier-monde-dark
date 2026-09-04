@@ -10,6 +10,7 @@ Copie GitHub : **c’est le canon de travail**. Tu n’as pas besoin d’ouvrir 
 1. **[01_CarrefourPurgatoire.md](01_CarrefourPurgatoire.md)** — **début du jeu**, *avant* la carte des Landes : chute → donjon inversé en mer → dragon → grotte dans la falaise → Landes  
 2. **[02_Codex-Cosmique.md](02_Codex-Cosmique.md)** — ce qu’est la **Géode** (trou noir, ciel, nuages, gravité). Base du ciel 3D.  
 3. **[03_Atlas-des-Landes.md](03_Atlas-des-Landes.md)** — **LA carte** : lieux, biomes, pont, mer, manoir, potiers… C’est ça qu’il faut peindre / poser.  
+   Taille : [09_TAILLE_DE_LA_CARTE.md](../09_TAILLE_DE_LA_CARTE.md) — **10 × 20 km**, plage **20 × 3 km** en bas.  
 4. [04_Factions.md](04_Factions.md) — plus tard (qui habite où)  
 5. [05_Pantheon.md](05_Pantheon.md) — plus tard (PNJ). Pas à peupler en passe A.  
 6. [06_Arcanes.md](06_Arcanes.md) — plus tard. Magie = techno. Combat FPS = déjà `cahier-combat/`.  
@@ -29,7 +30,8 @@ Le 3D doit pouvoir **poser** :
 - fracture / **Pont de l’Épineuse**
 - ciel = nuages cosmiques + trou (Codex = même ciel que `exemples/ciel-dark.tsx`)
 
-Une **seule** carte Dark pour l’instant : **Landes + mer du donjon**. Pas le continent élevé. Pas Montnoir.
+Une **seule** carte Dark pour l’instant : **Landes + mer du donjon**. Pas le continent élevé. Pas Montnoir.  
+Taille : [09_TAILLE_DE_LA_CARTE.md](../09_TAILLE_DE_LA_CARTE.md) — **10 km × 20 km**, plage **20 × 3 km** en bas (sud).
 
 ## Ordre de code — inchangé
 

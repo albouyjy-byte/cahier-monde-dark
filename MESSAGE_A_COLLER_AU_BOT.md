@@ -32,6 +32,13 @@ INTÉRESSANT — créer la carte d’après l’Atlas + le Codex :
   Ciel (passe B, APRÈS A) : même contrat que exemples/ciel-dark.tsx
   (trou ancré, planètes lentes, nuages noirs).
   Haut d’écran = NORD. iy=0 = bord nord.
+  TAILLE (09_TAILLE_DE_LA_CARTE.md) — décision, pas une question :
+    monde  10 km de large × 20 km de long
+    est–ouest = 20 000 m   nord–sud = 10 000 m
+    plage = bande EN BAS (sud)  20 km × 3 km
+    mer au sud, landes au nord, donjon en mer
+    Tu ne fabriques PAS cette grille en passe A.
+    Tu lis nx, ny, cell_m dans le .carte. Pas de mètres en dur.
   Légende + croquis + carte peinte = exemples/  (contrat VISUEL 3D).
 
 Images :

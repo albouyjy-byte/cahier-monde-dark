@@ -7,12 +7,13 @@
 ## Lis dans cet ordre
 
 1. [00_COMMENCE_ICI.md](00_COMMENCE_ICI.md)
-2. [01_DEUX_JEUX_UN_MOTEUR.md](01_DEUX_JEUX_UN_MOTEUR.md)
-3. [02_ORDRE_DES_PASSES.md](02_ORDRE_DES_PASSES.md)
-4. [06_GARDE_FOU.md](06_GARDE_FOU.md) — **avant de coder quoi que ce soit**
-5. **[lore/00_LIS_MOI.md](lore/00_LIS_MOI.md)** — canon Géode (Carrefour = début, Atlas+Codex = **la carte**)
-6. [PROMPT_POUR_CLAUDE_CODE.md](PROMPT_POUR_CLAUDE_CODE.md)
-7. [MESSAGE_A_COLLER_AU_BOT.md](MESSAGE_A_COLLER_AU_BOT.md)
+2. [09_TAILLE_DE_LA_CARTE.md](09_TAILLE_DE_LA_CARTE.md) — **10 × 20 km**, plage 20 × 3 km en bas
+3. [01_DEUX_JEUX_UN_MOTEUR.md](01_DEUX_JEUX_UN_MOTEUR.md)
+4. [02_ORDRE_DES_PASSES.md](02_ORDRE_DES_PASSES.md)
+5. [06_GARDE_FOU.md](06_GARDE_FOU.md) — **avant de coder quoi que ce soit**
+6. **[lore/00_LIS_MOI.md](lore/00_LIS_MOI.md)** — canon Géode (Carrefour = début, Atlas+Codex = **la carte**)
+7. [PROMPT_POUR_CLAUDE_CODE.md](PROMPT_POUR_CLAUDE_CODE.md)
+8. [MESSAGE_A_COLLER_AU_BOT.md](MESSAGE_A_COLLER_AU_BOT.md)
 
 ## Lore (six livres propres)
 
