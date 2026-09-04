@@ -33,11 +33,13 @@ INTÉRESSANT — créer la carte d’après l’Atlas + le Codex :
   (trou ancré, planètes lentes, nuages noirs).
   Haut d’écran = NORD. iy=0 = bord nord.
   TAILLE (09_TAILLE_DE_LA_CARTE.md) — décision, pas une question :
-    monde  10 km de large × 20 km de long
-    est–ouest = 20 000 m   nord–sud = 10 000 m
-    plage = bande EN BAS (sud)  20 km × 3 km
-    mer au sud, landes au nord, donjon en mer
-    Tu ne fabriques PAS cette grille en passe A.
+    10 km × 20 km = la TERRE seulement (Landes + plage + fosse + pins noirs).
+    ÇA N’INCLUT PAS LA MER. La mer entoure, très grande (peinture).
+    Plage = bande EN BAS (sud)  20 km × 3 km.
+    Vol donjon → grotte : 5–6 min à dos de dragon.
+    Depuis la falaise, le donjon est MINUSCULE au loin (~15 km de mer).
+    Sur le trajet : STATUE GÉANTE, visage d’un Premier-Né, pleine mer.
+    Tu ne fabriques PAS cette grille en passe A. Tu ne scripte PAS le vol.
     Tu lis nx, ny, cell_m dans le .carte. Pas de mètres en dur.
   Légende + croquis + carte peinte = exemples/  (contrat VISUEL 3D).
 

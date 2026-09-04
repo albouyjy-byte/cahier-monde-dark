@@ -20,9 +20,10 @@ Pas le continent élevé. Pas Montnoir. Pas la ville-crabe.
 
 **Taille verrouillée** (voir [09_TAILLE_DE_LA_CARTE.md](../09_TAILLE_DE_LA_CARTE.md)) :
 
-- monde **10 km de large × 20 km de long**
-- plage = bande **en bas** (sud) : **20 km × 3 km**
-- mer au sud de la bande ; landes au nord
+- **Terre** (Landes + plage + fosse + pins noirs) : **10 km × 20 km**
+- **La mer n’est pas dedans.** Elle entoure, très grande (peinture).
+- Plage = bande **en bas** (sud) : **20 km × 3 km**
+- Vol donjon → grotte : **5–6 min**, donjon **minuscule** depuis la falaise, **statue visage Premier-Né** en mer sur le trajet
 
 ---
 
@@ -32,9 +33,10 @@ Du **donjon en mer** vers l’**intérieur**, puis la **fracture**.
 
 | Lieu | Où | Note 3D / biome |
 |---|---|---|
-| **Donjon renversé** | Pleine **mer** | Arrivée. Deux moitiés (plafond / abîme), bassin, pont, port. Blocs cyclopéens Premiers-Nés. Mini-trou. |
+| **Donjon renversé** | **Pleine mer**, loin | Arrivée. Minuscule vu de la falaise. ~15 km + de mer ouverte. |
+| **Statue visage Premier-Né** | **Pleine mer**, sur le vol | Géante. On passe devant à dos de dragon, donjon → grotte. |
 | Port intérieur | Dans le donjon | Quais, bateaux non-bois, Homme-Seiche |
-| **Grotte du dragon** | **Falaises** côte | Vol depuis le donjon. Caverne taillée, 2 statues érodées. Sac de couchage (plus tard). Croisade Veritas : statues cyclopéennes brisées. |
+| **Grotte du dragon** | **Falaises** côte (sud des Landes) | Vol 5–6 min depuis le donjon. Caverne taillée, 2 statues érodées. |
 | Route des falaises | Grotte → forteresse | Herse fer noir, statues Premiers-Nés, Striges dégénérés |
 | Forteresse à fleur de falaise | Rocher au-dessus de la mer | Ancien bastion Premiers-Nés, **Chitineux évolués** + automates asservis |
 | **Landes** | Collines, ronces, vent | Après la grotte. Maisons trouées. Braconnier. |
@@ -72,24 +74,24 @@ Du **donjon en mer** vers l’**intérieur**, puis la **fracture**.
 ```
                     NORD (haut d’écran, iy = 0)
                     intérieur des Landes (~7 km)
-         manoir Bouc     Pierre Plantée     tour Horloger
+         manoir Bouc     Pierre Plantée     pins noirs
               \              |                /
-            POTIERS      tourbières      Arbre du Pendu
-                              |
-                    Champ de pierre / astrologue
-                              |
-         ----------- FRACTURE / PONT ÉPINEUSE (plus tard, vers le fond) -----------
+            POTIERS      FOSSE           tour Horloger
                               |
          ============ LANDES (collines, ronces) ============
-         village pêcheurs / falaises / GROTTE DRAGON
+         falaises / GROTTE DRAGON
                               |
-         ===== PLAGE  20 km de long × 3 km de large  (bande du bas) =====
-         mer noire ~~~~ DONJON ~~~~ mer
-                    SUD (bas de la carte)
+         ===== PLAGE  20 km × 3 km  (bande du bas, TERRE) =====
+                              |
+         mer  ·  STATUE visage Premier-Né  ·  mer
+                              |
+         mer noire ~~~~ DONJON (minuscule vu de la falaise) ~~~~ mer
+                    SUD
+         (océan EN PLUS des 10×20 km de terre, tout autour)
 ```
 
-JY, 4 sept 2026 : **haut de l’écran = NORD**. `iy = 0` = bord nord.  
-**Bas = SUD = la plage**, puis la mer. Ne pas inverser. Ne pas mettre la mer en haut.
+JY, 4 sept 2026 : **haut = NORD**. **Bas = SUD = plage**, puis **beaucoup de mer**, puis le donjon.  
+Les **10 × 20 km = la terre seulement**. Ne pas coller le donjon contre la plage.
 
 La **légende peinte** (`exemples/carte-dark-fantasy-legende.jpg`) + **croquis crayon** + **carte peinte entière** = contrat **visuel 3D**. L’Atlas dit **quoi** est où. La peinture dit **comment ça doit y ressembler**.
 
@@ -99,11 +101,13 @@ La **légende peinte** (`exemples/carte-dark-fantasy-legende.jpg`) + **croquis c
 
 | Besoin Atlas | Biome / relief probable |
 |---|---|
-| mer + donjon | mer 0 m, masse / pics (tours) |
+| mer + donjon | mer 0 m, masse / pics (tours) — donjon **loin**, minuscule depuis la côte |
+| statue Premier-Né | pleine mer, sur le vol |
 | falaises + grotte | pics, falaise, cave / fosse |
 | lande + ronces + collines | `lande_dark`, herbe, ronces |
 | tourbières / marais | marais, brume, eau noire |
-| gouffre Potiers | fosse / gouffre argile |
+| gouffre / fosse | `fond_fosse` |
+| pins noirs | `pins_noirs`, **au-dessus** de la fosse |
 | fracture / pont | vide ou fosse + pont |
 | plateau continent (plus tard) | plateau ~1 km |
 

@@ -29,6 +29,8 @@ chute trou noir
     → escaliers « fleurs » → port intérieur (momie, clé, Homme-Seiche)
     → porte noire, montée, toit : Mère Araignée vs bébé dragon
     → vol sur le dragon (tempête, lune noire, observatrice Strige)
+       **5–6 minutes**, mer immense, donjon qui devient minuscule
+       on passe par une **statue géante : visage d’un Premier-Né** en pleine mer
     → grotte taillée à mi-falaise (Landes)
     → collines, ronces, statues érodées, maisons trouées, Braconnier
 ```

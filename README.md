@@ -7,7 +7,7 @@
 ## Lis dans cet ordre
 
 1. [00_COMMENCE_ICI.md](00_COMMENCE_ICI.md)
-2. [09_TAILLE_DE_LA_CARTE.md](09_TAILLE_DE_LA_CARTE.md) — **10 × 20 km**, plage 20 × 3 km en bas
+2. [09_TAILLE_DE_LA_CARTE.md](09_TAILLE_DE_LA_CARTE.md) — **10 × 20 km de terre**, mer autour, vol 5–6 min
 3. [01_DEUX_JEUX_UN_MOTEUR.md](01_DEUX_JEUX_UN_MOTEUR.md)
 4. [02_ORDRE_DES_PASSES.md](02_ORDRE_DES_PASSES.md)
 5. [06_GARDE_FOU.md](06_GARDE_FOU.md) — **avant de coder quoi que ce soit**
