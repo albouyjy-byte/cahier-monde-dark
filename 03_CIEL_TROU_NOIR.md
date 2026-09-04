@@ -2,33 +2,29 @@
 
 **Passe B. Pas avant que le `.carte` tienne au sol.**
 
-## Ce qu’on a dit (Grok + Jean-Yves)
+## Contrat visuel = la démo déjà faite
 
-Le ciel n’est pas un dégradé bleu. C’est un **astre mort qui commande**.
+Jean-Yves l’a vue, elle est « vraiment pas mal ». C’est **ça** le ciel, pas un dégradé.
 
-- Un **trou noir** (vortex) dans le ciel — lisible, pas un effet YouTube de 4 secondes.
-- Des **planètes** qui **gravitent** autour (lentes, orbites longues, on les voit bouger si on attend).
-- Des **nuages noirs** qui gravitent **autour du trou**, pas un scrolling de skybox.
-- Lumière du monde : froide, râpeuse. La lande est jaunie **parce que** ce ciel existe.
+Fichier copié ici : [`exemples/ciel-dark.tsx`](exemples/ciel-dark.tsx)  
+(source : cartographe `cedar-cedar-cactus-reef/src/components/ciel-dark.tsx` — **ne pas coder dans ce dépôt**)
 
-Référence de sensation : Elden Ring (ciel comme menace), pas Starfield.
+Ouvrir : appli pinceau, bouton **« Voir le ciel Dark »**. Glisser = regarder.
 
-## Ce que c’est, techniquement (pour Claude)
+## Ce que la démo montre
 
-Un **dôme / sky distant** du FPS déjà là. Pas un nouveau renderer.
+- Un **trou noir** (vortex) dans le ciel — lisible, ancré dans le **monde** (pas collé à la caméra). Un tour à 360° : on **revoit** le trou.
+- Des **planètes entières** qui **gravitent** autour du même centre. Lentes.
+- Des **nuages noirs** (taches irrégulières, pas des ovales) : nappes sur le dôme **plus** une nappe **collée au trou** (~40 petits + ~16 gros) qui **tournent et ne s’éloignent pas**.
+- Pas d’étoiles. Fond : gris foncé au zénith → **noir** à l’horizon.
+- Éclair du trou vers un arbre (plus tard). Flash violet puis noir.
 
-- Le trou = disque / anneau, **fixe à l’infini** (il ne « suit » pas comme un objet de salle).
-- Planètes = billboards ou sphères **très loin**, quaternion d’orbite autour du trou, période en **minutes**, pas en secondes.
-- Nuages noirs = couches qui **tournent** plus vite que les planètes, plus près du trou. Silhouettes, pas du volumétrique cher.
-- **Aucun** pont, **aucune** cascade, **aucun** peuplement dans cette passe.
+## Technique (passe B, dans le FPS)
 
-## Test visuel (passe B)
+Un **dôme / coupole déjà là**. Pas un nouveau renderer. Pas coller le React dans l’HTML.
 
-1. Debout sur le sol du `.carte` (passe A déjà verte).
-2. On lève la tête : le trou est là.
-3. On attend : une planète a **bougé**. Un nuage a **tourné**.
-4. On marche 200 m : le trou **reste** au même endroit du ciel (pas collé à la caméra comme un quad de salle).
+Test : debout sur le `.carte` → on lève la tête : le trou. On attend : planète et nuage ont **bougé**. On marche 200 m : le trou **reste** au même endroit du ciel.
 
 ## Interdit en passe B
 
-Refaire le sol. Textures de biomes. Villes. Combat. Hôtel intérieur. Volumétrique lourd. « Fausse 3D » du ciel collée au nez.
+Refaire le sol. Copier `ciel-dark.tsx` tel quel dans l’hôtel. Volumétrique. Coder dans `cedar-cedar-cactus-reef`.
