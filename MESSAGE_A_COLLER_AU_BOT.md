@@ -1,54 +1,58 @@
 # Colle ce message à Claude Code
 
-(dans la session **en cours** — il doit **décider lui-même** d’en ouvrir une nouvelle)
+Nouvelle session **« Dark Fantasy Mode »**.  
+Si tu es encore dans la session combat / remise en ordre : **ouvre-en une nouvelle**, colle ce bloc là-bas. Ne code pas le lore ici.
 
 ```
-Jean-Yves. Nouvelle priorité : le MONDE DARK (Géode / Dark Fantasy Mode).
-Pas l’intérieur de l’hôtel.
+Jean-Yves. Univers DARK (Géode). Pas l’intérieur de l’hôtel.
 
-IMPORTANT — tu DÉCIDES :
-  Cette session (combat, remise en ordre, fil d’il y a quatre jours)
-  n’est PAS la session pour intégrer le Dark.
+VA LIRE GitHub, dans cet ordre — tu ne codes pas le lore, tu t’en sers pour la CARTE :
 
-  Tu ouvres TOI-MÊME une NOUVELLE session, exprès pour ça.
-  Tu prépares le prompt de passation (quoi coller, quels fichiers lire).
-  Tu ne commences PAS le Dark ici, au milieu du combat.
+  https://github.com/albouyjy-byte/cahier-monde-dark
 
-Lis (pour préparer la passation, encore SANS coder le Dark ici) :
+  1. lore/00_LIS_MOI.md
+  2. lore/01_CarrefourPurgatoire.md
+     = DÉBUT DU JEU, AVANT la carte des Landes.
+       Chute trou noir → donjon INVERSÉ en MER (arrivée)
+       → dragon vole le héros → GROTTE dans la FALAISE, au niveau des Landes.
+  3. lore/02_Codex-Cosmique.md
+     = la Géode (intérieur d’un trou noir, ciel = nuages + trou).
+  4. lore/03_Atlas-des-Landes.md
+     = LA CARTE. C’est ça qu’il faut poser / peindre.
+  5. 06_GARDE_FOU.md + 02_ORDRE_DES_PASSES.md
+  6. cahier-grok/00_LIS_MOI.md (passe A, dans hotel-brume-ecarlate)
 
-  1. https://github.com/albouyjy-byte/cahier-monde-dark
-     (00, 01, 02, 06_GARDE_FOU, 03 ciel, 04 villes)
-  2. cahier-grok/00_LIS_MOI.md
-  3. cahier-grok/07_GARDE_FOU.md
-  4. cahier-grok/04_MESURER_AVANT_DE_CODER.md
-  5. cahier-grok/02_PROMPT_POUR_CLAUDE_CODE.md
+Les six livres propres sont dans lore/ (Factions, Panthéon, Arcanes, Livre du Destin aussi).
+Livre du Destin = livre dont vous êtes le héros. PAS le FPS. Tu ne l’implémentes pas.
 
-Aussi : cahier-combat/ (fourreau — déjà branché, tu ne le refais pas).
-Cartographe 2D : https://github.com/albouyjy-byte/cedar-cedar-cactus-reef — tu n’y codes pas.
+INTÉRESSANT — créer la carte d’après l’Atlas + le Codex :
+  Une seule carte Dark : Landes + mer du donjon.
+  Doit pouvoir porter : mer, donjon renversé, falaises, grotte du dragon,
+  landes (collines / ronces), tourbières, fracture / Pont de l’Épineuse.
+  Ciel (passe B, APRÈS A) : même contrat que exemples/ciel-dark.tsx
+  (trou ancré, planètes lentes, nuages noirs).
+  Haut d’écran = NORD. iy=0 = bord nord.
+  Légende + croquis + carte peinte = exemples/  (contrat VISUEL 3D).
 
-Le rêve, en une phrase :
-  Elden Ring (masses, ciel hostile) + liens sociaux de l’hôtel
-  + combat paliers/jeton
-  + carte PEINTE (biomes + altitude) qui DEVIENT le sol 3D
-  + ciel : trou noir, planètes et nuages noirs qui gravitent
-  + villes DESSUS/DESSOUS de grandes masses 3D, murs noirs
+Images :
+  exemples/carte-dark-fantasy-legende.jpg
+  exemples/croquis-crayon-iles.png
+  exemples/carte-peinte-entiere.jpg
 
-L’hôtel intérieur : on le met de côté. On ne l’efface pas.
+ORDRE :
+  Si « Ouvrir une carte » + 3 tests .carte + mesh=pieds  PAS verts
+      → UNIQUEMENT passe A (sol + marche + ID + lieux).
+         Tu ne scripte PAS le donjon, PAS le vol du dragon, PAS les PNJ, PAS le ciel.
+  Si passe A verte
+      → passe B courte : ciel (trou + 1 planète + nuages). 03_CIEL_TROU_NOIR.md
 
-ORDRE, dans la NOUVELLE session Dark :
-  Si le bouton « Ouvrir une carte » + 3 tests .carte ne sont PAS verts
-      → UNIQUEMENT la passe A (sol + marche + ID + lieux).
-         PAS le ciel. PAS les villes. PAS le Dark jouable.
-  Si la passe A EST verte
-      → une passe B courte : ciel (trou + 1 planète + nuages en orbite lente).
-         Tests : cahier-monde-dark/03_CIEL_TROU_NOIR.md
+Interdit :
+  - recoder l’hôtel, vider l’hôtel
+  - copier la démo combat Grok
+  - coder dans cedar-cedar-cactus-reef
+  - fusionner combat + carte + ciel
+  - Livre du Destin / tarot / Colosse / Vita-Omega
+  - régénérer le marais 29-08, inventer un relief.png
 
-Grok n’écrit pas le HTML. Sa démo combat est JETABLE. Tu ne la copies pas.
-Ne fusionne pas combat + carte + ciel.
-
-Ici, tout de suite :
-  1. Confirme que tu ouvres une nouvelle session « Dark Fantasy Mode ».
-  2. Écris le prompt exact à coller dans cette nouvelle session.
-  3. Dis si la passe A est déjà faite ou pas (d’après ce que tu as mesuré).
-  Ne code pas le ciel ici.
+Dis d’abord : tu as lu lore/00, 01, 02, 03. Puis : passe A verte ou pas. Puis tu codes UNE passe.
 ```

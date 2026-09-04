@@ -10,6 +10,8 @@
 6. **Ne pas** toucher le cartographe Python / `cedar-cedar-cactus-reef` (on **peint**, Claude **branche**).
 7. Ciel (B) : trou + orbites **lentes**. Pas de volumétrique de luxe.
 8. Villes (C) : une masse, un hameau sous elle. Pas une génération de cité.
+9. **Lore** (`lore/`) : on **lit**, on ne **code** pas. Carte = Atlas + Codex. Début = Carrefour (donjon mer → grotte). **Livre du Destin = pas le FPS.**
+10. Hors canon propre : Colosse, Vita-Omega, vrac Drive — **ne pas** ouvrir pour coder.
 
 ## Si JY dit « je veux le ciel tout de suite »
 
