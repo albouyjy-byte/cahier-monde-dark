@@ -2,6 +2,8 @@
 
 Source Drive (intégral) : [Le Panthéon des Ombres](https://docs.google.com/document/d/1Syl8yC_1RhrO-Lv-jpZY3SRbFhpsEsu-86U6YD_jm_c/edit)
 
+**Ajout 5 sept 2026** — deux persos du jeu 2D **La Forêt** (même univers). Fiches : [08_Foret-prequelle.md](08_Foret-prequelle.md).
+
 **Pas à peupler en passe A.** Les **lieux** de l’Atlas suffisent.  
 Quand on peuplera : un PNJ = un lieu (comme l’hôtel : mémoire, barks, paliers).
 
@@ -10,6 +12,37 @@ Quand on peuplera : un PNJ = un lieu (comme l’hôtel : mémoire, barks, palier
 ## Héros
 
 Terre → chute mini-trou → amnésique, nu, sans nom. Singularité génétique (Codex).
+
+**Même homme que le héros de La Forêt 2D.** Prologue 2D : réveil dans une clairière, famille morte autour, *« Je ne me rappelle plus ce qui est arrivé. »* (M-01–M-02). L’IA l’a ensuite téléporté au Donjon Renversé (Carrefour). Il a **oublié** la forêt. Le médaillon et La Demi-Pute sont le fil.
+
+---
+
+## Les deux de La Forêt (ajoutés ici)
+
+### 1. La femme du héros
+
+Morte **avant** l’ouverture FPS. On ne la croise pas vivante.
+
+- Cadavre dans la clairière du prologue 2D (souvenir, **pas** à poser en 3D maintenant).
+- **Médaillon** (F-57) ramassé sur elle. Le héros ne sait pas encore.
+- Plus tard, un PNJ : *« C’est le médaillon de ta femme. »* (M-04) — révélation différée.
+- Objet : emplacement cou, **narratif**. Ce n’est **pas** le médaillon lumineux Clarke (LOR-06, artefact-lampe). Deux objets distincts.
+
+### 2. La Demi-Pute
+
+Vivante. Compagne. **Passe D**, forêts / maisons abandonnées des Landes. Pas la première marche grotte → village.
+
+| | |
+|---|---|
+| Histoire | Capturée par la **Seigneurie du Bouc** (braconnage, vol ou prostitution). Punie : visage, langue, un bras, une jambe. |
+| Apparence | Masque de cuir (moitié abîmée), cheveux longs par-dessus, jambe de bois. Main en bois **amovible** → **lame d’estoc** (fleuret, pas crochet). |
+| Nom | Surnom **assumé**, revanche. Âpre, lucide, redoutable. Ni larme ni brisure. |
+| Voix | Pas de langue. Gestes, charbon au sol, lame dans le bois. |
+| Combat | Arbalète à une main + estocade hit & run (perce l’armure, stun, backdash). |
+| Où | Itinérante. Maisons abandonnées. **Jamais deux fois le même endroit.** |
+| Offre | Toit pour la nuit. Troque (composants, **clés** des patrouilles Bouc). Se bat **avec** le héros si les gardes tombent près de son abri. |
+
+Elle peut **le reconnaître** alors qu’il ne se reconnaît pas. Ne pas la fusionner avec l’Épineuse du Pont, ni avec la jeune femme du Bouc (cornes), ni avec la femme cicatrices / oreille coupée.
 
 ---
 
@@ -24,6 +57,7 @@ Terre → chute mini-trou → amnésique, nu, sans nom. Singularité génétique
 | 6ᵉ enfant fugitif | Loi Démurges, recherché |
 | Loup-garou blanc (« Patou ») | Berger / troupeau |
 | **Épineuse du Pont** | Garde le pont. Loyauté au sceau du Bouc. Broche infini + ronces. Pendentif (fille). Romance possible. |
+| **La Demi-Pute** | Forêts / maisons. Voir ci-dessus. Romance possible (Forêt I-14) — **plus tard**, pas un système à coder. |
 
 ---
 
@@ -32,6 +66,8 @@ Terre → chute mini-trou → amnésique, nu, sans nom. Singularité génétique
 - **Jeune femme** (cornes / yeux, honte, « princesse ») — jumelle d’expériences, simulacre de la fille morte
 - **Vieil homme** — deuil, déni, maltraitance des Potiers
 - **Garde homme-bouc** — force, cave du manoir révèle l’origine
+
+C’est **eux** qui ont fait La Demi-Pute. Patrouilles = H-11 Forêt = mêmes gardes.
 
 ---
 
@@ -49,7 +85,7 @@ Terre → chute mini-trou → amnésique, nu, sans nom. Singularité génétique
 
 ## Isolés
 
-- **Braconnier** — première rencontre après la grotte (Carrefour). Chant *Le vent des Landes ne ment jamais*. Bandeau = marque Bouc.
+- **Braconnier** — première rencontre après la grotte (Carrefour / [09_Grotte-vers-village.md](09_Grotte-vers-village.md)). Chant *Le vent des Landes ne ment jamais*. Bandeau = marque Bouc. **Pas** La Demi-Pute.
 - **Homme Chat Noir** — Arbre du Pendu, flûte, fleuret. Recrutement : ambre + bijou astrologue + médaillon Épineuse
 - **Astrologue** — cadavre pendu, tour penchée, « autre terre » au plafond
 - **Horloger** — Ordo / Horologarius
@@ -66,3 +102,5 @@ Terre → chute mini-trou → amnésique, nu, sans nom. Singularité génétique
 
 Un PNJ dehors = même moteur que l’hôtel : `Barks._dire`, `Memoire`, paliers.  
 **Passe D**, après A/B/C. Ne pas spawner la liste en passe A.
+
+Première marche dehors : grotte → village abandonné — **Braconnier possible**, pas Demi-Pute, pas médaillon.

@@ -5,6 +5,8 @@ Source Drive (intégral) : [Les Factions et Entités](https://docs.google.com/do
 **Magie = techno.** Le peuple croit à la magie. Les élites savent.  
 Le héros a chuté depuis la Terre.
 
+**Même lore que La Forêt 2D** ([08_Foret-prequelle.md](08_Foret-prequelle.md)) : Seigneurie du Bouc, Épineux, Clarke. Pas un second univers.
+
 **Pas la passe A.** Utile plus tard pour **qui habite quel lieu** de l’Atlas.
 
 ---
@@ -13,13 +15,14 @@ Le héros a chuté depuis la Terre.
 
 | Faction / peuple | Où (Atlas) |
 |---|---|
-| **Famille du Bouc** | Manoir, Landes, (prison de l’Échafaud) |
+| **Famille du Bouc** | Manoir, Landes, (prison de l’Échafaud). **Seigneurie du Bouc** dans La Forêt 2D = les mêmes. Patrouilles, justice expéditive, mutilations (La Demi-Pute). |
 | **Potiers** (Vermines) | Ville-gouffre, four |
 | **Chitineux** | Donjon (sauvages) ; forteresse falaise (évolués, armures) |
 | **Striges (Apkallu)** | Ciel, route des falaises (dégénérés), dragons-oiseaux |
 | **Épineuse** (une) | Pont / fracture |
+| **Épineux** (peuple) | Forêts de ronces / d’épines — **le terrain de La Forêt 2D**. On peut parlementer (H-08). |
 | **Hommes-Batraciens** | Tourbières |
-| **Hommes-Crustacés** | Côte, village pêcheurs abandonné |
+| **Hommes-Crustacés** | Côte, village pêcheurs abandonné (Guerre du Pot Brisé) |
 | **Boursouflés** | Échafaud (Bourreau) |
 | **Ordo Dei** | Loin : tour Horloger, monastère fou, falaise du continent |
 | **Vermines / sous-hommes** | Souterrains hauts |
@@ -48,4 +51,5 @@ Hiérarchie « race pure » (Ordo, usurpée aux Premiers-Nés) vs sous-races (to
 ## Pour le FPS
 
 Combat = `cahier-combat/` (paliers, jeton, fourreau).  
-Ne pas recoder un système de factions. Ne pas importer Entité Rouge / Colosse / Vita-Omega.
+Ne pas recoder un système de factions. Ne pas importer Entité Rouge / Colosse / Vita-Omega.  
+Ne pas importer l’armée 2D (20–200) ni le HTML Forêt.
