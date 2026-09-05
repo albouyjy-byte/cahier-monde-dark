@@ -36,11 +36,11 @@ Du **donjon en mer** vers l’**intérieur**, puis la **fracture**.
 | **Donjon renversé** | **Pleine mer**, loin | Arrivée. Minuscule vu de la falaise. ~15 km + de mer ouverte. |
 | **Statue visage Premier-Né** | **Pleine mer**, sur le vol | Géante. On passe devant à dos de dragon, donjon → grotte. |
 | Port intérieur | Dans le donjon | Quais, bateaux non-bois, Homme-Seiche |
-| **Grotte du dragon** | **Falaises** côte (sud des Landes) | Vol 5–6 min depuis le donjon. Caverne taillée, 2 statues érodées. |
+| **Grotte du dragon** | **Falaises** côte (sud des Landes) | Vol 5–6 min depuis le donjon. Caverne taillée, 2 statues érodées. **Début de la marche** → village abandonné ([09](09_Grotte-vers-village.md)). |
 | Route des falaises | Grotte → forteresse | Herse fer noir, statues Premiers-Nés, Striges dégénérés |
 | Forteresse à fleur de falaise | Rocher au-dessus de la mer | Ancien bastion Premiers-Nés, **Chitineux évolués** + automates asservis |
-| **Landes** | Collines, ronces, vent | Après la grotte. Maisons trouées. Braconnier. |
-| Village pêcheurs abandonné | Côte | Guerre du Pot Brisé. Crustacés, poulpes à visage. Épée rouillée. |
+| **Landes** | Collines, ronces, vent | Après la grotte. Maisons trouées. Braconnier. **Même forêt que La Forêt 2D** ([08](08_Foret-prequelle.md)). |
+| **Village pêcheurs abandonné** | Côte | Guerre du Pot Brisé. Crustacés, poulpes à visage. Épée rouillée. **Cible marche décembre.** |
 | Village pêcheurs côtiers | Côte, vivant | Filet, tempêtes, mer noire |
 | Manoir / château du Bouc | Colline | Vue sur le **four des Potiers**. Survivants : vieil homme + jeune femme (cornes). Cave labo sous le manoir. |
 | **Ville des Potiers** | **Cœur**, gouffre d’argile | Maisons troglodytes, four. Sous-race Vermines. Reine pondeuse. |
@@ -124,4 +124,6 @@ Ne pas inventer un `relief.png`. Ne pas régénérer le marais 29-08.
 
 Passe C (villes sous les masses) : Potiers dans le gouffre, ville au fond du pont — **après** A + B.
 
-Ne pas peupler (Braconnier, Bouc, Épineuse) en passe A.
+Ne pas peupler (Braconnier, Bouc, Épineuse, **Demi-Pute**) en passe A.
+
+La Forêt 2D n’est **pas** une seconde carte. C’est **ces** ronces + maisons. Prequelle : [08_Foret-prequelle.md](08_Foret-prequelle.md).
