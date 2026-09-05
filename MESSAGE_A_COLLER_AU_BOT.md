@@ -43,6 +43,10 @@ INTÉRESSANT — créer la carte d’après l’Atlas + le Codex :
     Tu lis nx, ny, cell_m dans le .carte. Pas de mètres en dur.
   Légende + croquis + carte peinte = exemples/  (contrat VISUEL 3D).
 
+  Lore 08 / 09 : La Forêt 2D = le MÊME univers (préquelle). Deux PNJ au Panthéon
+    (femme du héros / médaillon, La Demi-Pute). Tu ne RECODES PAS le HTML 2D.
+    Grotte → village abandonné = décembre, PAS passe A. Tu ne scripte PAS ça.
+
 Images :
   exemples/carte-dark-fantasy-legende.jpg
   exemples/croquis-crayon-iles.png
@@ -62,6 +66,7 @@ Interdit :
   - fusionner combat + carte + ciel
   - Livre du Destin / tarot / Colosse / Vita-Omega
   - régénérer le marais 29-08, inventer un relief.png
+  - recoder La Forêt 2D / scripter grotte→village / spawner Demi-Pute
 
 Dis d’abord : tu as lu lore/00, 01, 02, 03. Puis : passe A verte ou pas. Puis tu codes UNE passe.
 ```

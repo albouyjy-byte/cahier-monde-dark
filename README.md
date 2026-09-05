@@ -15,7 +15,7 @@
 7. [PROMPT_POUR_CLAUDE_CODE.md](PROMPT_POUR_CLAUDE_CODE.md)
 8. [MESSAGE_A_COLLER_AU_BOT.md](MESSAGE_A_COLLER_AU_BOT.md)
 
-## Lore (six livres propres)
+## Lore (six livres propres + Forêt)
 
 Dossier [`lore/`](lore/00_LIS_MOI.md). Copie de travail du Drive. **On ne code pas le lore.** On s’en sert pour peindre / poser la carte.
 
@@ -26,6 +26,8 @@ Dossier [`lore/`](lore/00_LIS_MOI.md). Copie de travail du Drive. **On ne code p
 | 03 Atlas des Landes | **La carte** |
 | 04–06 | Factions, PNJ, arcanes — plus tard |
 | 07 Livre du Destin | Livre dont vous êtes le héros — **pas le FPS** |
+| 08 La Forêt (préquelle) | **Même univers.** Deux persos : femme (médaillon) + **La Demi-Pute**. Pas le HTML 2D. |
+| 09 Grotte → village | Première marche dehors. **Décembre**, pas passe A. |
 
 ## Trois cahiers, trois missions — ne pas fusionner
 

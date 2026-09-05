@@ -22,3 +22,6 @@ Si A n’est pas faite, **interdire B/C/D/E**. Le ciel sur l’ancien `relief.pn
 Combat (fourreau) peut vivre **en parallèle** dans l’hôtel. Ce n’est pas un prérequis du ciel. Ne pas les fusionner dans la même passe.
 
 Passe E (objets libres) : **après** A. Sinon on plante des maisons dans un sol qui va bouger.
+
+**Grotte du dragon → village abandonné** : spec `lore/09_Grotte-vers-village.md`.  
+Pas A. Pas une démo Grok. **Décembre** (A verte, au moins un bout de C). Spawn dans la grotte, marche, village vide. Pas le vol.
