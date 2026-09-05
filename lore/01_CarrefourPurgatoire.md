@@ -7,6 +7,9 @@ Poèmes et chants = à dire / voix off dans le jeu (**plus tard**). Ne pas les c
 
 Ambiance : **mélancolie**, décadence totale. Synthwave dark / dungeon synth. Esthétique encre noire.
 
+**Prequelle :** [08_Foret-prequelle.md](08_Foret-prequelle.md) — même homme, forêt, famille morte, médaillon, La Demi-Pute. Il a **oublié**.  
+**Première marche dehors :** [09_Grotte-vers-village.md](09_Grotte-vers-village.md) — grotte → village abandonné. **Décembre**, pas passe A.
+
 ---
 
 ## Le héros
@@ -16,6 +19,7 @@ Ambiance : **mélancolie**, décadence totale. Synthwave dark / dungeon synth. E
 - Atterrissage prévu « Temple Brutaliste » = **le Donjon Renversé**.
 - Rôle : comprendre pourquoi ce monde **décline** malgré une IA prédictive qui devrait s’occuper du bien-être de tout être.
 - Il est une **singularité génétique** (Codex) — à connaître, **pas à coder**.
+- **Même** héros que La Forêt 2D (clairière, famille, médaillon). Voir 08.
 
 ---
 
@@ -33,9 +37,11 @@ chute trou noir
        on passe par une **statue géante : visage d’un Premier-Né** en pleine mer
     → grotte taillée à mi-falaise (Landes)
     → collines, ronces, statues érodées, maisons trouées, Braconnier
+    → **village pêcheurs abandonné** (côte, Guerre du Pot Brisé)
 ```
 
-C’est **ça** le début du jeu. La **carte des Landes** commence quand il **sort de la grotte**.
+C’est **ça** le début du jeu. La **carte des Landes** commence quand il **sort de la grotte**.  
+Grotte → village = spec 09. **Ne pas scripter** tant que passe A n’est pas verte.
 
 ---
 
@@ -125,7 +131,7 @@ Au loin, dans les nuages : une femme sur un **dragon Strige** (plumes, tête de 
 
 ---
 
-## 3. Grotte dans la falaise → Landes
+## 3. Grotte dans la falaise → Landes → village abandonné
 
 Côte d’**épines** : falaises abruptes tout le long.
 
@@ -140,10 +146,10 @@ Coffre. La clé du coffre = celle du dragon. Il **refuse**, presque violent, si 
 Sortie de grotte = **Landes**.
 
 - Collines et herbes à perte de vue
-- **Ronces noires** à épines
+- **Ronces noires** à épines — **même forêt** que La Forêt 2D (préquelle)
 - **Deux grandes statues** à l’entrée, tellement érodées qu’elles ne ressemblent à rien
 - Chemin vers les terres (heures de marche)
-- Maisons abandonnées, **trous dans les toits** (ennemi possible)
+- Maisons abandonnées, **trous dans les toits** (ennemi possible ; plus tard : La Demi-Pute, pas ici)
 
 **Braconnier des Landes** (recrutable, plus tard) :
 
@@ -151,6 +157,15 @@ Sortie de grotte = **Landes**.
 - Arbalète, faucille, pièges à ours, peut-être un chien
 - Feu dans une maison à moitié détruite
 - Chante ***Le vent des Landes ne ment jamais*** (voix off / bark plus tard — texte Drive)
+
+**Village pêcheurs abandonné** (côte, ensuite sur le chemin) :
+
+- Guerre du **Pot Brisé**
+- Cabanes vides, filets, barques
+- Hommes-Crustacés / poulpes à visage — traces, pas un combat obligatoire la première fois
+- **Épée rouillée**
+
+Spec de la marche : [09_Grotte-vers-village.md](09_Grotte-vers-village.md). **Décembre.**
 
 Ensuite (Atlas) : manoir du Bouc, tourbières, pont de l’Épineuse, ville des Potiers, etc.
 
@@ -166,8 +181,9 @@ Lieux à pouvoir **poser** un jour, **dans cet ordre géographique** :
 | mer noire | autour | Agitée, 0 m, orage |
 | `grotte_dragon` | **falaise**, mi-hauteur | Caverne taillée, 2 statues érodées à l’entrée |
 | `landes` | après la grotte | Collines, ronces, vent, maisons trouées |
+| village pêcheurs abandonné | **côte** | Guerre du Pot Brisé. Pas le village vivant. |
 
 Le ciel du Codex (trou, nuages, astre) est **au-dessus de tout ça**.
 
-**Ne pas** scripter chute / combats / vol / chanson en passe A.  
+**Ne pas** scripter chute / combats / vol / chanson / grotte→village en passe A.  
 **Ne pas** faire du donjon un building d’hôtel.
